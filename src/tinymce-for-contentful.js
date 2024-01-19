@@ -20,6 +20,7 @@ window.contentfulExtension.init(function(api) {
     tinymce.init({
       selector: "#editor",
       extended_valid_elements: "script[src]",
+      allow_script_urls: true,
       plugins: p,
       toolbar: tb,
       menubar: mb,
