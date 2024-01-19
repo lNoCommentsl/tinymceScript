@@ -19,6 +19,7 @@ window.contentfulExtension.init(function(api) {
 
     tinymce.init({
       selector: "#editor",
+      extended_valid_elements: "script[src]",
       plugins: p,
       toolbar: tb,
       menubar: mb,
@@ -27,7 +28,6 @@ window.contentfulExtension.init(function(api) {
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
-      protect: [/<script>[\s\S]*?<\/script>/g],
       init_instance_callback : function(editor) {
         var listening = true;
 
