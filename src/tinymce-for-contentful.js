@@ -27,7 +27,7 @@ window.contentfulExtension.init(function(api) {
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
-      extended_valid_elements: 'script[language|type|src]',
+      extended_valid_elements: 'script[src]',
       init_instance_callback : function(editor) {
         var listening = true;
 
