@@ -1,7 +1,7 @@
 {
   "id": "TinyMCE (v2)",
   "name": "TinyMCE (v2)",
-  "srcdoc": "./src/index.html",
+  "src": "https://reliable-taiyaki-c9d2fd.netlify.app/src/index.html",
   "fieldTypes": ["Text"],
   "parameters": {
     "installation": [
